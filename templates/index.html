@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <meta http-equiv="content-type" charset="utf-8">
+  </head>
+  <body>
+    <h1>統計学日英対訳</h1>
+    <p>日本語→英語: 0, 英語→日本語: 1</p>
+    <p>例: 0りんご、1Apple</p>
+    <form method="post" action="">
+      <input name="input" id="input" type="text" size="20" maxlength="30">
+      <input id="ans_btn" name="answer" type="submit" value="検索する">
+    </form>
+    <p>
+        {{ form_input }}
+    </p>
+  </body>
+</html>

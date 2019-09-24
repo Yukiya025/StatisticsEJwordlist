@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/rustyle.css">
+</head>
+<body>
+  <h1>{% block headline1 %}{% endblock %}の現在活用</h1> <!--делать-->
+  <table>
+    <col><col><col><col>
+    <tr>
+      <th>単数人称</th>
+      <th>活用</th>
+      <th>複数人称</th>
+      <th>活用</th>
+    </tr>
+    <tr>
+      <td>я</td>
+      <td>{% block verb1 %}{% endblock %}</td> <!--делаю-->
+      <td>мы</td>
+      <td>{% block verb1 %}{% endblock %}</td><!--делаем-->
+    </tr>
+    <tr>
+      <td>ты</td>
+      <td>{% block verb1 %}{% endblock %}</td><!--делаешь-->
+      <td>вы</td>
+      <td>{% block verb1 %}{% endblock %}</td><!--делаете-->
+    </tr>
+    <tr>
+      <td>он/она/оно</td>
+      <td>{% block verb1 %}{% endblock %}</td><!--делает-->
+      <td>{% block verb1 %}{% endblock %}они</td>
+      <td>{% block verb1 %}{% endblock %}</td><!--делают-->
+    </tr>
+  </table>
+</body>
+</html>
