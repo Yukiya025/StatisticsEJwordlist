@@ -1,2 +1,23 @@
-id, ja, en
-1, 
+id, ja, en,bk_n,bk_t,bk_chapter
+1,数量データ,numerical data,9784405102514 ,manga_tokei,1
+2,カテゴリーデータ,categorical data,9784405102514 ,manga_tokei,1
+3,横断面データ,cross section data,9784405102514 ,manga_tokei,1
+4,時系列データ,time series data,9784405102514 ,manga_tokei,1
+5,連続型データ,continuous data,9784405102514 ,manga_tokei,1
+6,離散型データ,discrete data,9784405102514 ,manga_tokei,1
+7,プロット,plot,9784405102514 ,manga_tokei,1
+8,散布図,scatter diagram,9784405102514 ,manga_tokei,1
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
